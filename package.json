@@ -1,8 +1,9 @@
 {
   "name": "my-awesome-greeter-isuru",
-  "version": "1.0.4",
+  "version": "1.0.6 ",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -18,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/kanishkaisuru/my-awesome-greeter-isuru.git"
   },
-  "keywords": [],
+  "keywords": ["Hello", "Greeter"],
   "author": "",
   "license": "ISC",
   "bugs": {
